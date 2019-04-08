@@ -1,0 +1,30 @@
+{
+    "name": "splashblue",
+    "displayName": "SplashBlue",
+    "description": "VSCode SplashBlue Theme, to make your editor look splashy, blue and cool!",
+    "version": "1.0.0",
+    "repository": 
+    {
+        "type": "git",
+        "url": "https://github.com/Futureglobe/SplashBlue"
+    },
+    "homepage": "http://futureglobe.de/",
+    "icon": "images/themeIcon.png",
+        
+    "publisher": "Futureglobe",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "SplashBlue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/splashblue-color-theme.json"
+            }
+        ]
+    }
+}
