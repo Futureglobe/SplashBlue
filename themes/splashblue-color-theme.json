@@ -1,97 +1,104 @@
-// primaryRed: f13016
-// secondaryRed : b8230f
-// actionRed: 991c0c
-// primaryBlack: 1f1f25
-// secondaryBlack: 17171b
-// actionBlack: 111111
-
 {
 	"tokenColors": "./Dracula.tmTheme",
 	"colors": {
 
 		// Base
 		"foreground": "#ffffff",
-		"selection.background": "#b8230f",
+		"selection.background": "#0362bb",
 		
 		// Textlink
-		"textLink.foreground": "#f13016",
-		"textLink.activeForeground": "#991c0c",
-		"pickerGroup.foreground": "#f13016",
-
+		"textLink.foreground": "#0184ff",
+		"textLink.activeForeground": "#0362bb",
+		"pickerGroup.foreground": "#0184ff",
 		// Editor
 		"editor.foreground": "#ffffff",
 		"editorWhitespace.foreground": "#4d4d4d",
 		"editor.lineHighlightBackground": "#111111",
 		"editor.selectionBackground": "#4d4d4d",
-		// "editor.selectionBackground": "#991c0c",
 		"editor.background": "#1f1f25",
-		"editorCursor.foreground": "#f13016",
-		"editor.selectionHighlightBackground": "#f13016",
-		"editor.findMatchBackground": "#f13016",
-		"editor.findMatchHighlightBackground": "#500c03",
-		"editorBracketMatch.border": "#f13016",
+		"editorCursor.foreground": "#0184ff",
+		"editor.selectionHighlightBackground": "#0184ff",
+		"editor.findMatchBackground": "#0184ff",
+		"editor.findMatchHighlightBackground": "#032d50",
+		"editorBracketMatch.border": "#0184ff",
 
 		// Button
-		"button.background": "#f13016",
-		"button.hoverBackground": "#991c0c",
+		"button.background": "#0184ff",
+		"button.hoverBackground": "#0362bb",
 
 		// Statusbar
-		"statusBar.background": "#111111",
-		"statusBar.noFolderBackground": "#991c0c",
+		"statusBar.background": "#0362bb",
+		"statusBar.noFolderBackground": "#0362bb",
 		"statusBar.foreground": "#ffffff",
 
 		// Input Control
 		"input.background": "#1f1f25",
-		"input.border": "#991c0c",
-		"inputOption.activeBorder": "#f13016",
+		"input.border": "#0362bb",
+		"inputOption.activeBorder": "#0184ff",
 
 		// Scroll Bar Control
-		"scrollbarSlider.background": "#991c0c",
-		"scrollbarSlider.activeBackground": "#f13016",
-		"scrollbarSlider.hoverBackground": "#b8230f", 
+		"scrollbarSlider.background": "#0362bb",
+		"scrollbarSlider.activeBackground": "#0184ff",
+		"scrollbarSlider.hoverBackground": "#0362bb", 
+
+		// Titlebar
+		"titleBar.activeBackground": "#111",
+		"titleBar.activeForeground": "#fff",
+
+		// Tabs
+		"tab.hoverBackground": "#024583",
+		"tab.hoverBorder": "#024583",
+
+		"menubar.selectionBackground": "#0362bb",
+		"dropdown.background": "#111",
+		"dropdown.foreground": "#fff",
+
+		// Breadcrumb
+		"breadcrumb.background": "#002d57",
+		"breadcrumb.foreground": "#cccccc9c",
 
 		// Badge
-		"badge.background": "#f13016",
+		"badge.background": "#0184ff",
 		"badge.foreground": "#ffffff",
 
 		// Progressbar
-		"progressBar.background": "#f13016", 
+		"progressBar.background": "#0184ff", 
 
 		// Lists and Trees
-		"list.activeSelectionBackground": "#991c0c",
-		"list.focusBackground": "#991c0c",
-		"list.dropBackground": "#f13016",
-		"list.hoverBackground": "#991c0c",
-		"list.inactiveSelectionBackground": "#991c0c",
+		"list.activeSelectionBackground": "#0362bb",
+		"list.focusBackground": "#0362bb",
+		"list.dropBackground": "#0184ff",
+		"list.hoverBackground": "#0362bb",
+		"list.inactiveSelectionBackground": "#0362bb",
 
 		// Activitybar
-		"activityBar.background": "#17171b",
-		"activityBar.foreground": "#f13016",
+		"activityBar.background": "#16161a",
+		"activityBar.foreground": "#0184ff",
 		"activityBar.border": "#111",
-		"activityBarBadge.background": "#f13016",
-		"activityBarBadge.foreground": "#ffffff",
+		"activityBarBadge.background": "#01c4ff",
+		"activityBarBadge.foreground": "#000",
 
 		// Sidebar
-		"sideBar.background": "#17171b",
+		"sideBar.background": "#16161a",
 
 		// Editor Groups & Tabs
-		"editorGroup.border": "#f13016", 
-		"tab.activeBackground": "#991c0c",
-		"tab.activeBorder": "#991c0c",
-		"editorLink.activeForeground": "#f13016",
+		"editorGroup.border": "#0184ff", 
+		"tab.activeBackground": "#0362bb",
+		"tab.activeBorder": "#0362bb",
+		"editorLink.activeForeground": "#0184ff",
 
 		// Editor Gutter
 		"diffEditor.insertedTextBackground": "#24c41638",
 
 		// Peek View
-		"peekViewEditor.background": "#17171b",
-		"peekViewEditorGutter.background": "#17171b",
-		"peekViewResult.selectionBackground": "#17171b",
-		"peekViewEditor.matchHighlightBackground": "#500c03",
+		"peekViewEditor.background": "#16161a",
+		"peekViewEditorGutter.background": "#16161a",
+		"peekViewResult.selectionBackground": "#16161a",
+		"peekViewEditor.matchHighlightBackground": "#0184ff",
 
 		// Panels
-		"panel.background": "#17171b",
-		"panelTitle.activeBorder": "#f13016"
+		"panel.background": "#16161a",
+		"panelTitle.activeBorder": "#0184ff"
 	},
-	"name": "RedNeon"
+	"name": "SplashBlue"
 }
